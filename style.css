@@ -1,0 +1,42 @@
+/*Se copia la font family de google en la sección: Quicksand: CSS class for a variable style*/
+*{
+    font-family: "Quicksand", sans-serif;
+}
+/*Color de encabezado*/
+header{
+    background-color: #78ABA8;
+}
+/*Color letra portafolio*/
+header span{
+    color: #FCFFE0;
+}
+/*Color letra botones*/
+.nav-item a{
+    color: #FCFFE0;
+}
+/*Color letra cambia al visitar el link*/
+.nav-item a:visited{
+    color: #FCFFE0;
+}
+/*Color letra al seleccionar botones*/
+.nav-item a:hover{
+    color: #EF9C66;
+}
+/*Color botón naranja y letra amarilla*/
+#nav-button{
+    background-color: #EF9C66;
+    color: #FCFFE0;
+}
+.icon-square .bi{
+    color: #78ABA8;
+    font-size: 2em;
+}
+.fs-2 {
+    color: #78ABA8;
+}
+.card-img-top{
+    height: 118px;
+    width: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
