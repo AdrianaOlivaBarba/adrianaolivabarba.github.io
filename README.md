@@ -7,7 +7,7 @@ El propósito de está página web es crear mi primera versión de portafolio de
 
 Podrás encontrarlo aquí [Portafolio](https://adrianaolivabarba.github.io).
 
-### Tecnologías
+### Tecnologías:
 
 * HTML
 * CSS
@@ -21,5 +21,5 @@ Podrás encontrarlo aquí [Portafolio](https://adrianaolivabarba.github.io).
 * Proyectos
 * Contacto
 
-### Captura del proyecto
+### Captura del proyecto:
 ![Captura del proyecto](/assets/ssportafolio.png)
