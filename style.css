@@ -34,9 +34,13 @@ header span{
 .fs-2 {
     color: #78ABA8;
 }
-.card-img-top{
-    height: 118px;
-    width: auto;
-    background-size: contain;
-    background-repeat: no-repeat;
+footer{
+    background-color: #fcffe0;
+    color: #78ABA8;
+}
+footer .icon-footer i{
+    color: #EF9C66;
+}
+footer p a {
+    color: #78ABA8;
 }

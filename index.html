@@ -15,9 +15,11 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!--Iconos bootstrap para enlazar copiar aqui el CDN-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--Icono que aparece en la pestaña-->
+    <link rel="shortcut icon" href="/assets/backpack.svg" type="image/x-icon">
     <!--Enlace Css link:CSS-->
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Portafolio</title>
 </head>
 
 <body>
@@ -42,15 +44,17 @@
         <!--Sección sobre mi-->
         <section id="sobre-mi">
             <div class="px-4 py-5 my-5 text-center">
-                <img class="d-block mx-auto mb-4 rounded-circle" src="/assets/1.JPEG" alt="Foto" width=200>
+                <img class="d-block mx-auto mb-4 rounded-circle" src="/assets/1.jpg" alt="Foto" width=200>
                 <h1 class="display-5 fw-bold text-body-emphasis">Georgina Adriana Oliva Barba</h1>
                 <h2>Médica Veterinaria Zootecnista | Desarrolladora Frontend Jr.</h2>
                 <div class="col-lg-6 mx-auto">
                     <p class="lead mb-4">Médica Veterinaria Zootecnista, con interés en la reproducción animal y el
-                        desarrollo web. Me destaco por mi compromiso con la investigación y mi actitud proactiva. </p>
+                        desarrollo web. Me destaco por mi compromiso con la investigación y mi actitud proactiva </p>
                     <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Conoce mi
-                            trayectoría</button>
+                        <a href="/assets/CV-en Georgina Adriana Oliva Barba.pdf" target="_blank">
+                            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Conoce mi
+                                trayectoría</button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -103,18 +107,20 @@
                 <div class="container">
                     <div class="row row-cols-1 row-cols-md-3 g-4">
                         <div class="col">
-                            <div class="card h-80">
-                                <img src="/assets/pagina1.png" class="card-img-top" alt="Página Capibara">
+                            <div class="card h-100">
+                                <img src="assets/pagina1.png" class="card-img-top" alt="Página Capibara" />
                                 <div class="card-body">
                                     <h5 class="card-title">Página Capibara</h5>
-                                    <p class="card-text">Proyecto de práctica en el bootcamp de Tecnolochicas Pro,
-                                        emplenado HTML y CSS</p>
+                                    <p class="card-text">
+                                        Proyecto de práctica en el bootcamp de Tecnolochicas Pro, conceptos básicos de
+                                        HTML y CSS.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card h-80">
-                                <img src="/assets/clonpinterest.png" class="card-img-top" alt="Clon Pinterest">
+                            <div class="card h-100">
+                                <img src="assets/clonpinterest.png" class="card-img-top" alt="Clon Pinterest" />
                                 <div class="card-body">
                                     <h5 class="card-title">Clon Pinterest</h5>
                                     <p class="card-text">Proyecto realizado en el bootcamp de Tecnolochicas Pro,
@@ -123,13 +129,13 @@
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card h-80">
-                                <img src="/assets/clonpinterest.png" class="card-img-top" alt="...">
+                            <div class="card h-100">
+                                <img src="/assets/clonpinterest.png" class="card-img-top" alt="Otro proyecto" />
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural
-                                        lead-in
-                                        to additional.</p>
+                                    <h5 class="card-title">Otro proyecto</h5>
+                                    <p class="card-text">
+                                        Escribir aqui la información del otro proyecto.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -145,48 +151,51 @@
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <div class="d-flex justify-content-center">
-                                    <!--Testimonio 1-->
-                                    <div class="card align-items-center border-0" style="width: 18rem;">
-                                        <img src="/assets/17.jpg" class= "rounded-circle card-img-top" alt="Testimonio 1">
-                                        <div class="card-body">
-                                            <h5 class="card-title text-center">Nombre persona</h5>
-                                            <div class="card-header text-center">
-                                                Puesto en que colaboramos
+                                        <!--Testimonio 1-->
+                                        <div class="card align-items-center border-0" style="width: 18rem;">
+                                            <img src="/assets/17.jpg" class="rounded-circle card-img-top"
+                                                alt="Testimonio 1">
+                                            <div class="card-body">
+                                                <h5 class="card-title text-center">Nombre persona</h5>
+                                                <div class="card-header text-center">
+                                                    <em>Puesto en que colaboramos</em>
+                                                </div>
+                                                <p class="card-text text-center">comentario de la persona</p>
                                             </div>
-                                            <p class="card-text text-center">comentario de la persona</p>
                                         </div>
                                     </div>
-                                </div>
                                 </div>
                                 <div class="carousel-item">
                                     <!--Testimonio 2-->
                                     <div class="d-flex justify-content-center">
-                                    <div class="card align-items-center border-0" style="width: 18rem;">
-                                        <img src="/assets/18.jpg" class="rounded-circle card-img-top" alt="Testimonio 2">
-                                        <div class="card-body">
-                                            <h5 class="card-title text-center">Nombre persona</h5>
-                                            <div class="card-header text-center">
-                                                Puesto en que colaboramos
+                                        <div class="card align-items-center border-0" style="width: 18rem;">
+                                            <img src="/assets/18.jpg" class="rounded-circle card-img-top"
+                                                alt="Testimonio 2">
+                                            <div class="card-body">
+                                                <h5 class="card-title text-center">Nombre persona</h5>
+                                                <div class="card-header text-center">
+                                                    <em>Puesto en que colaboramos</em>
+                                                </div>
+                                                <p class="card-text text-center">comentario de la persona</p>
                                             </div>
-                                            <p class="card-text text-center">comentario de la persona</p>
                                         </div>
                                     </div>
-                                </div>
                                 </div>
                                 <div class="carousel-item">
                                     <!--Testimonio 3-->
                                     <div class="d-flex justify-content-center">
-                                    <div class="card align-items-center border-0" style="width: 18rem;">
-                                        <img src="/assets/19.jpg" class="rounded-circle card-img-top" alt="Testimonio 3">
-                                        <div class="card-body">
-                                            <h5 class="card-title text-center">Nombre persona</h5>
-                                            <div class="card-header text-center">
-                                                Puesto en que colaboramos
+                                        <div class="card align-items-center border-0" style="width: 18rem;">
+                                            <img src="/assets/19.jpg" class="rounded-circle card-img-top"
+                                                alt="Testimonio 3">
+                                            <div class="card-body">
+                                                <h5 class="card-title text-center">Nombre persona</h5>
+                                                <div class="card-header text-center">
+                                                    <em>Puesto en que colaboramos</em>
+                                                </div>
+                                                <p class="card-text text-center">comentario de la persona</p>
                                             </div>
-                                            <p class="card-text text-center">comentario de la persona</p>
                                         </div>
                                     </div>
-                                </div>
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button"
@@ -206,27 +215,17 @@
                 <section id="contacto">
                     <div class="container my-5">
                         <div class="p-5 text-center bg-body-tertiary rounded-3">
-                            <svg class="bi mt-4 mb-3" style="color: var(--bs-indigo);" width="100" height="100">
-                                <use xlink:href="#bootstrap"></use>
-                            </svg>
-                            <h1 class="text-body-emphasis">Jumbotron with icon</h1>
+                            <i class="bi bi-envelope-heart" style="font-size: 3rem; color: #EF9C66;"></i>
+                            <h1 class="text-body-emphasis">¡Contáctame!</h1>
                             <p class="col-lg-8 mx-auto fs-5 text-muted">
-                                This is a custom jumbotron featuring an SVG image at the top, some longer text that
-                                wraps early
-                                thanks to a responsive <code>.col-*</code> class, and a customized call to action.
+                                Contáctame para iniciar juntos un proyecto de desarrollo web
                             </p>
                             <div class="d-inline-flex gap-2 mb-5">
-                                <button
-                                    class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill"
-                                    type="button">
-                                    Call to action
-                                    <svg class="bi ms-2" width="24" height="24">
-                                        <use xlink:href="#arrow-right-short"></use>
-                                    </svg>
-                                </button>
-                                <button class="btn btn-outline-secondary btn-lg px-4 rounded-pill" type="button">
-                                    Secondary link
-                                </button>
+                                <a href="mailto:adrianaolivabarb@gmail.com">
+                                    <button class="btn btn-outline-secondary btn-lg px-4 rounded-pill" type="button">
+                                        Escribeme
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -234,14 +233,11 @@
     </main>
     <!--Sección footer-->
     <footer class="py-3 my-4">
-        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+        <ul class="nav justify-content-center pb-3 mb-3">
+            <li class="nav-item"><a href="https://github.com/AdrianaOlivaBarba" target="_blank" class="nav-link px-2 text-body-secondary icon-footer"><i class="bi bi-github"></i></a></li>
+            <li class="nav-item"><a href="https://www.linkedin.com/in/georgina-adriana-o-07bb101b6/" target="_blank" class="nav-link px-2 text-body-secondary icon-footer"><i class="bi bi-linkedin"></i></a></li>
         </ul>
-        <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+        <p class="text-center">Creado por <em>Georgina Adriana Oliva Barba</em> en el bootcamp de <a href="https://tecnolochicas.mx" target="_blank">Tecnolochicas PRO</a></p>
     </footer>
     <!--Script Bootstrap siempre es mejor al final del código-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
