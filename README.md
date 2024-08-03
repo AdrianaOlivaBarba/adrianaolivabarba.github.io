@@ -3,7 +3,7 @@
 
 Proyecto creado durante el bootcamp de Tecnolochicas PRO, es adaptable a distintos dispositivos y tamaños de pantalla.
 
-El propósito de está página web es mostrar mi portafolio de proyectos como desarrolladora web. ✨ 
+El propósito de está página web es crear mi primera versión de portafolio de proyectos como desarrolladora web. ✨ 
 
 Podrás encontrarlo aquí [Portafolio](https://adrianaolivabarba.github.io).
 
